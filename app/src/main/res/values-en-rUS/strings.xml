@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppCalmDown</string>
+    <string name="msg_detener">Stop</string>
+    <string name="msg_relajacion">App Calm Down</string>
+    <string name="msg_desarrollado">Powered By Christhian Aracena</string>
+    <string name="msg_btn_pajaros">Birds</string>
+    <string name="msg_btn_olas">Waves</string>
+    <string name="msg_btn_lluvia">Rain</string>
+</resources>
