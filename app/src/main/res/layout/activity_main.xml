@@ -91,6 +91,7 @@
         android:layout_marginEnd="16dp"
         android:layout_alignParentEnd="true"
         android:text="Mostrar Mensajes Aleatorios"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
