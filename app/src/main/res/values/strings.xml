@@ -4,6 +4,6 @@
     <string name="msg_relajacion">App de relajación</string>
     <string name="msg_desarrollado">Desarrollado por Christhian Aracena</string>
     <string name="msg_btn_pajaros">Pájaros</string>
-    <string name="msg_btn_olas" >Olas del Mar</string>
+    <string name="msg_btn_olas">Olas del Mar</string>
     <string name="msg_btn_lluvia">Lluvia</string>
 </resources>

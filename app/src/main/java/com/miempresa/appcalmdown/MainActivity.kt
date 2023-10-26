@@ -1,5 +1,6 @@
 package com.miempresa.appcalmdown
 
+import android.content.Intent
 import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -78,6 +79,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.btnWaves).setOnClickListener { soundPlayer.playSound(R.raw.olas_mar) }
         findViewById<View>(R.id.btnBirds).setOnClickListener { soundPlayer.playSound(R.raw.pajaros) }
         findViewById<View>(R.id.btnStop).setOnClickListener { soundPlayer.stopSound() }
+
     }
 
     private fun startRandomMessageUpdates() {
@@ -104,5 +106,13 @@ class MainActivity : AppCompatActivity() {
         runnable?.let {
             handler.removeCallbacks(it)
         }
+    }
+
+
+
+    fun goHome(view: View) {
+        soundPlayer.stopSound()
+        val intent = Intent(this, MainMenu::class.java)
+        startActivity(intent)
     }
 }
